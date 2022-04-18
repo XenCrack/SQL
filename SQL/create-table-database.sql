@@ -1,5 +1,5 @@
---create database mert
---drop database mert
+--create database CRACK
+--drop database CRACK
 
 use AdventureWorks2012;
 
@@ -16,8 +16,8 @@ create table Mert(
 insert into Mert(id,name) values(1, 'mert')
 select * from Mert
 
-alter table Mert add isDelete bit
-alter table Mert drop isDelete
-alter table Mert alter column address varchar(250)
+alter table CRACK add isDelete bit
+alter table CRACK drop isDelete
+alter table CRACK alter column address varchar(250)
 
-drop table Mert
+drop table CRACK
