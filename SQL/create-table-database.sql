@@ -3,7 +3,7 @@
 
 use AdventureWorks2012;
 
-create table Mert(
+create table CRACK(
 	--id int not null primary key,
 	--id int not null AUTO_INCREMENT,
 	id int IDENTITY(1,1) primary key,
@@ -13,8 +13,8 @@ create table Mert(
 	createDate datetime default getdate(),
 	--primary key(id)
 )
-insert into Mert(id,name) values(1, 'mert')
-select * from Mert
+insert into CRACK(id,name) values(1, 'crack')
+select * from CRACK
 
 alter table CRACK add isDelete bit
 alter table CRACK drop isDelete
